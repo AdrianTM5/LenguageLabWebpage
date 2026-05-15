@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+#btnTop{
+    position: absolute;
+    bottom: 300px;
+    right: 300px;
+    display: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    background: #1f7369;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #btnTop:hover{
+    background: white;
+    color: #1f7369;
+  }
+
 /*---------------------------------------------Top nav-----------------------------------*/
 
 #topNav {
@@ -21,7 +40,7 @@
 #topNav ul {
     display: flex; 
     padding-top: 30px;
-    padding-left: 20%;
+    padding-left: 28%;
     gap: 140px;
 }
   

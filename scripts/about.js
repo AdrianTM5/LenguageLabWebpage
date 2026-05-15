@@ -63,5 +63,21 @@ document.addEventListener("DOMContentLoaded", () => {
    });
 });
 
+const btn = document.getElementById("btnTop");
+window.addEventListener("scroll", () => {
+    if(window.scroll > 20) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+});
+
+btn.addEventListener("click", () => {
+    window.scrollTo({
+        top:0,
+        behavior: "smooth"
+    });
+});
+
 
 
